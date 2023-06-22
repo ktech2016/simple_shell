@@ -1,5 +1,3 @@
-history.c
-
 #include "shell.h"
 
 /**
@@ -143,4 +141,3 @@ int renumber_history(info_t *info)
 	}
 	return (info->histcount = i);
 }
-

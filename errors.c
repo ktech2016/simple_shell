@@ -1,5 +1,3 @@
-errors.c
-
 #include "shell.h"
 
 /**
@@ -85,4 +83,3 @@ int _putsfd(char *str, int fd)
 	}
 	return (i);
 }
-
